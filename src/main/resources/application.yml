@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+juhe:
+  key: daa5a31bec638f8b60746b36c0b285af
+
+logging:
+  level:
+    root: debug
+
+spring:
+  data:
+    mongodb:
+      #      uri: mongodb://juhe:juhe123@ip1:port1,ip2:port2/database
+      uri: mongodb://juhe:juhe123@mysql.lc:27017/juhe
+
+
