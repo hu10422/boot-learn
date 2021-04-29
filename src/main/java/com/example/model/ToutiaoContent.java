@@ -6,13 +6,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.io.Serializable;
 import java.util.Date;
 
-
 @Data
-@Document("toutiao")
-public class Toutiao implements Serializable {
+@Document("toutiao_content")
+public class ToutiaoContent {
 
     @Id
     private String uniquekey;
@@ -35,13 +33,11 @@ public class Toutiao implements Serializable {
 
     private String thumbnailPicS03;
 
-    private String isContent;
+    private String content;
 
     @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private Date createTime;
 
     @JSONField(format = "yyyy-MM-dd HH:mm:ss")
     private Date updateTime;
-
-    private Integer status;
 }
