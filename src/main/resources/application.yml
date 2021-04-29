@@ -6,7 +6,7 @@ juhe:
 
 logging:
   level:
-    root: debug
+    com.example.learn: debug
 
 spring:
   data:
