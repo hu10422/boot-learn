@@ -14,4 +14,3 @@ spring:
       #      uri: mongodb://juhe:juhe123@ip1:port1,ip2:port2/database
       uri: mongodb://juhe:juhe123@mysql.lc:27017/juhe
 
-
