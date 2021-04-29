@@ -123,7 +123,6 @@ public class TouTiaoService {
         map.put("key", juheKey);
         map.put("uniquekey", uniquekey);
         JSONObject forObject = restTemplate.getForObject(CONTENT_URL, JSONObject.class, map);
-        System.err.println(forObject.toJSONString());
 
         Integer error_code = forObject.getInteger("error_code");
         if (0 != error_code) {

@@ -18,16 +18,16 @@ public class NewDateTime {
         log.info("测试定时任务！！！");
     }
 
-    @Scheduled(cron = "0 0 14 * * ? ")
+    @Scheduled(cron = "0 0 14 * * ?")
     public void index() {
         log.info("头条新闻更新！！！");
         touTiaoService.index();
     }
 
 
-    @Scheduled(cron = "0 1/10 * * * ? *")
+    @Scheduled(cron = "0 1/10 * * * ?")
     public void contetn() {
         log.info("新闻详情更新！！！");
-        touTiaoService.index();
+        touTiaoService.content();
     }
 }

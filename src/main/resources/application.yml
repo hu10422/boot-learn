@@ -4,9 +4,9 @@ server:
 juhe:
   key: daa5a31bec638f8b60746b36c0b285af
 
-logging:
-  level:
-    com.example.learn: debug
+#logging:
+#  level:
+#    com.example.learn: debug
 
 spring:
   data:
