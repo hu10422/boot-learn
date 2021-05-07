@@ -19,7 +19,7 @@
     <artifactId>boot-learn</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>boot-learn</name>
-    <description>MongoDB 等工具使用</description>
+    <description></description>
     <properties>
         <java.version>1.8</java.version>
 
