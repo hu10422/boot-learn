@@ -6,10 +6,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class BootLearnApplication {
+public class MongoLearnApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BootLearnApplication.class, args);
+        SpringApplication.run(MongoLearnApplication.class, args);
     }
 
 }
