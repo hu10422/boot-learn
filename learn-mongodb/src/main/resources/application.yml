@@ -12,5 +12,5 @@ spring:
   data:
     mongodb:
       #      uri: mongodb://juhe:juhe123@ip1:port1,ip2:port2/database
-      uri: mongodb://juhe:juhe123@mysql.lc:27017/juhe
+      uri: mongodb://juhe:juhe123@data.lc:27017/juhe
 
